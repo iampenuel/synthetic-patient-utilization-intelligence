@@ -199,6 +199,26 @@ See [docs/reproduction-guide.md](docs/reproduction-guide.md) for more detail.
 - Add MLflow tracking for a clearly non-clinical utilization-modeling baseline.
 - Conduct stakeholder discovery with healthcare analysts before defining production requirements.
 
+  
+## Development Approach & AI Assistance
+
+This project was developed using an **AI-assisted software engineering workflow**, combining human-directed problem-solving with AI coding agents to accelerate implementation, debugging, and iteration.
+
+I led the project’s problem framing, architectural decisions, analytical requirements, and validation approach. AI coding agents assisted with developing and refining Python, PySpark, and SQL components, as well as supporting documentation.
+
+My workflow emphasizes three principles:
+
+- **Human-directed engineering:** Define the problem, establish requirements, evaluate design decisions, and guide implementation.
+- **AI-assisted development:** Use coding agents to accelerate development, explore solutions, troubleshoot issues, and refine implementations.
+- **Validation and accountability:** Review outputs, investigate inconsistencies, and verify results through reproducible checks rather than relying solely on AI-generated responses.
+
+For this project, validation includes data integrity checks, duplicate and missing-value assessments, encounter-to-patient relationship verification, and reconciliation of 7,210 synthetic encounters across processing layers.
+
+All analyses use synthetic Synthea healthcare records. The project demonstrates data engineering and descriptive healthcare analytics, not a validated clinical prediction system.
+
+**The objective is not simply to generate working code, but to build systems whose behavior, outputs, and limitations can be understood and evaluated.**
+
+
 ## Author
 
 Penuel Stanley-Zebulon
